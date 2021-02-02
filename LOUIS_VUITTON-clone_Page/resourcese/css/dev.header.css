@@ -1,0 +1,97 @@
+body > header.body-item.header > div.header-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3.33333vw;
+    padding-right: 3.33333vw;
+}
+body > header.body-item.header > div.header-item:not(:last-child){
+    border-bottom:0.0625rem solid #e9e9e9;
+}
+body > header.body-item.header > div.header-item > div.header-item-spring{
+    flex:1;
+}
+body > header.body-item.header > div.header-item.sub > ul.sub-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0.7rem 0;
+}
+body > header.body-item.header > div.header-item.sub > ul.sub-item.info > li.info-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7875rem;
+}
+body > header.body-item.header > div.header-item.sub > ul.sub-item.info > li.info-item:not(:last-child){
+    margin-right:1.3rem;
+}
+body > header.body-item.header > div.header-item.sub > ul.sub-item.info > li.info-item > img{
+    width:1rem;
+    height:1rem;
+    margin-right:0.5rem;
+}
+body > header.body-item.header > div.header-item.sub > ul.sub-item.login > li.login-item > a{
+    padding:0 1rem;
+}
+body > header.body-item.header > div.header-item.sub > ul.sub-item.login > li.login-item > a > img{
+    width:1rem;
+    height:1rem;
+}
+body > header.body-item.header > div.header-item.main > div.main-item.logo{
+    padding:1.5rem 0;
+}
+
+body > header.body-item.header > div.header-item.main > ul.main-item.nav{
+    display: flex;
+    flex-direction:row;
+    margin-left:3rem;
+}
+body > header.body-item.header > div.header-item.main > ul.main-item.nav > li.nav-item:not(:last-child){
+    margin-right:2rem;
+}
+body > header.body-item.header > div.header-item.main > ul.main-item.nav > li.nav-item{
+    height:4.5rem;
+    transition-duration: 700ms;
+}
+body > header.body-item.header > div.header-item.main > ul.main-item.nav > li.nav-item > button{
+    font-size:0.7rem;
+    height:100%;
+    background-color: #fff; 
+}
+body > header.body-item.header > div.header-item.main > ul.main-item.nav > li.nav-item > button:hover{
+    border-bottom:0.0625rem solid #000;
+}
+body > header.body-item.header > div.header-item.main > div.main-item.search-bar{
+    width:27%;
+    margin-right:0.5rem;
+    position:relative;
+}
+body > header.body-item.header > div.header-item.main > div.main-item.search-bar > form > img{
+    position:absolute;
+    top:0.6rem;
+    left:0.8rem;
+    width:1.2rem;
+    opacity: 0.7;
+}
+body > header.body-item.header > div.header-item.main > div.main-item.search-bar > form > input{
+    width:100%;
+    height:2.5rem;
+    outline: none;
+    border:none;
+    border-radius: 0.3rem;
+    background-color: #f6f5f3;
+    font-size:1.2rem;
+    box-sizing: border-box;
+    padding-left:2.5rem;
+}
+
+
+
+
+
+
+

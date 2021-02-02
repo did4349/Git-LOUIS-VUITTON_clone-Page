@@ -1,0 +1,52 @@
+.object-text-hidden {
+    position:absolute !important;  
+    width:0.0625rem; 
+    height:0.0625rem; 
+    overflow:hidden;
+    clip:rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip:rect(1px, 1px, 1px, 1px);
+}
+
+
+
+.object-main-item-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.object-main-item-btn > *:not(:last-child){
+    margin-bottom:0.8rem;
+}
+.object-main-item-btn > h3.object-item.main-text{
+    font-weight: 700;
+    font-size:1.125rem;
+}
+.object-main-item-btn > a.object-item.sub-text{
+    font-weight: 100;
+}
+.object-main-item-btn > .object-btn-box >button.object-item.btn{
+    background-color: #000;
+    color:#fff;
+    width:15rem;
+    padding:0.9rem;
+    font-size: 0.9rem;
+    transition-duration: 500ms;
+    display: inline;
+}
+.object-main-item-btn > .object-btn-box > button.object-item.btn:hover{
+    background-color: #eae8e4;
+    color:#000;
+}
+.object-main-item-btn > .object-btn-box > button.object-item.btn.add{
+    border:0.0625rem solid #000;
+    background-color: #fff;
+    color:#000;
+}
+.object-main-item-btn > .object-btn-box > button.object-item.btn.add:hover{
+    background-color: #eae8e4;
+    border:0;
+}
+
+
+

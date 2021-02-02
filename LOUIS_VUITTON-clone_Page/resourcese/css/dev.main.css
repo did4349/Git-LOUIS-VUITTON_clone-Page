@@ -1,0 +1,86 @@
+
+body > main.body-item.main > div.main-item.carousel{
+    position:relative;
+}
+body > main.body-item.main > div.main-item.carousel > div.carousel-item{
+    position: absolute;
+    z-index: 0;
+    opacity:0;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+body > main.body-item.main > div.main-item.carousel > div.carousel-item.showing{
+    z-index: 1;
+    opacity: 1;
+}
+body > main.body-item.main > div.main-item.carousel > div.carousel-item > img{
+    width:100%;
+}
+body > main.body-item.main > div.main-item.title-btn{
+    padding-top:34rem;
+    padding-bottom:4.5rem;
+}
+body > main.body-item.main > div.main-item.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top:0.07rem solid #eae8e4;
+    border-bottom:0.07rem solid #eae8e4;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.left-box{
+    padding:4rem;
+    box-sizing: border-box;
+    border-right:0.07rem solid #eae8e4;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.left-box > div.left-img > img{
+    width:100%;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.left-box > div.left-text{
+    padding-top:4rem;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.right-box > div.right-box-item{
+    flex:1;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.right-box > div.right-box-item.top{
+    padding:13.5rem;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.right-box > div.right-box-item.bottom{
+    padding:4rem;
+    box-sizing: border-box;
+    border-top:0.07rem solid #eae8e4;
+}
+body > main.body-item.main > div.main-item.flex-container > div.container-item.right-box > div.right-box-item.bottom > img{
+    width:100%;
+    margin-bottom:0.8rem;
+}
+body > main.body-item.main > div.main-item.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+body > main.body-item.main > div.main-item.grid-container > div.grid-item{
+    padding:4rem;
+    box-sizing:border-box;
+}
+body > main.body-item.main > div.main-item.grid-container > div.grid-item:not(:last-child){
+    border-right:0.07rem solid #eae8e4;
+}
+body > main.body-item.main > div.main-item.grid-container > div.grid-item > div.grid-item-image{
+    margin-bottom:4rem;
+}
+body > main.body-item.main > div.main-item.grid-container > div.grid-item > div.grid-item-image > img{
+    width:100%;
+}
+
+
+
+
+
+

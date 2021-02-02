@@ -1,0 +1,27 @@
+body > div.body-item.pop.visible{
+    text-align: center;
+    background-color: #f6f5f3;
+    padding:0.755rem;
+    font-size:0.9rem;
+    font-weight: 200;
+    position:relative;
+    display: block;
+}
+body > div.body-item.pop{
+    display: none;
+}
+
+body > div.body-item.pop > div.pop-item.close{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:2rem;
+    background-image: url(../image/times-solid.svg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center;
+    height:0.9rem;
+    width:0.9rem;
+    cursor: pointer;
+    opacity: 0.9;
+}
